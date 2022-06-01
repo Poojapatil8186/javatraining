@@ -1,0 +1,9 @@
+<html>
+<body>
+<form method="get" action="/result">
+<div><input type="text" name="uname" placeholder "username"></div>
+<br>
+<input type="Submit" value="ok">
+</form>
+</body>
+</html>

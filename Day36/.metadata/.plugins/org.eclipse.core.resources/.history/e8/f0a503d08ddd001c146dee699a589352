@@ -1,0 +1,11 @@
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+  
+    <title>WELCOME</title>
+</head>
+<body>
+<p th:text="{username}" />
+
+
+</body>
+</html>

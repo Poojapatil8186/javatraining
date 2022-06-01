@@ -1,0 +1,15 @@
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+  
+    <title>WELCOME</title>
+</head>
+<body>
+
+<form method="get" action="/result">
+<br>
+<a href="/movie">click here to go Movie Page</a>
+<br>
+<a href="/sports">click here to go Sports Page</a>
+</form>
+</body>
+</html>

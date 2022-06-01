@@ -1,0 +1,20 @@
+package com.example.assingementjpahtml;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+
+@Controller
+public class MyController {
+	@Autowired
+	@PostMapping("/createstudent")
+	public static String creatStudent(@ModelAttribute Student stud)
+	{
+		return "result";
+	}
+
+		
+
+	}
+
+

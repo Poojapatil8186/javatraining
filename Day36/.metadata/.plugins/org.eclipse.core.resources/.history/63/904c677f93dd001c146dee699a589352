@@ -1,0 +1,10 @@
+<html>
+<body>
+<h1>WELCOME TO THE SPORTS PAGE</h1>
+<form method="get" action="/sports">
+<br>
+<a href="http://www.sports.com">Sports</a>
+<br>
+</form>
+</body>
+</html>

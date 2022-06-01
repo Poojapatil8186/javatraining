@@ -1,0 +1,9 @@
+<html>
+<body>
+<form method="get" action="/moviePage">
+<br>
+<a herf="/moviePage">Movie</a>
+<br>
+</form>
+</body>
+</html>

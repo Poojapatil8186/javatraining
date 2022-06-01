@@ -1,0 +1,9 @@
+<html>
+<body>
+<form method="get" action="/registeruser">
+<input type="text" name="username">
+<br>
+<input type="Submit" value="ok">
+</form>
+</body>
+</html>

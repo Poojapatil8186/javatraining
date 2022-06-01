@@ -1,0 +1,28 @@
+package com.example.movielsportslogindemo;
+
+//import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+
+@Controller
+public class MyController {
+	@GetMapping("/mainpage")
+	public String mainPage()
+	{
+		return "main";
+	}
+	@GetMapping("/moviepage")
+	public String moviePage()
+	{
+		return "Movie";
+	}
+	@GetMapping("/sportspage")
+	public String sportsPage()
+	{
+		return "Sports";
+	}
+	}
+
+

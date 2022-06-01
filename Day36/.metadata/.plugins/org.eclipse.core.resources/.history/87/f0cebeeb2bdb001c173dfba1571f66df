@@ -1,0 +1,30 @@
+package com.example.assingementjpahtml;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import antlr.collections.List;
+
+@Controller
+public class MyController {
+	@Autowired
+	StudentRepository studrepo;
+	@PostMapping("/createstudent")
+	public static String creatStudent(@ModelAttribute Student stud)
+	{
+		studrepo.save(stud);
+		return "result";
+	}
+	@GetMapping("/showall")
+	public String show(Model model)
+	{
+		List<Student> ob= userrepo.findAll();
+		model.addAllAttributes("stud",ob);
+		return "result";
+	}
+	}
+
+

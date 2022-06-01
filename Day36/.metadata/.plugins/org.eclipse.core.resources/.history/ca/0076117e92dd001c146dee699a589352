@@ -1,0 +1,10 @@
+<html>
+<body>
+<h1>WELCOME TO THE MOVIE PAGE</h1>
+<form method="get" action="/moviePage">
+<br>
+<a herf="http://www.movie.com">Movie</a>
+<br>
+</form>
+</body>
+</html>

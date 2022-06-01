@@ -1,0 +1,6 @@
+package com.example.Assingementurldemo;
+
+@org.springframework.stereotype.Controller
+public class Controller {
+
+}

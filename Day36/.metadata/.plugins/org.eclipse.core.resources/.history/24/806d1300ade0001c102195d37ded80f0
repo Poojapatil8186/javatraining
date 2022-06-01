@@ -1,0 +1,25 @@
+package com.example.shoppingcartdemo;
+
+public class Item {
+	private String uname;
+	private int cost;
+	public String getUname() {
+		return uname;
+	}
+	public void setName(String uname) {
+		this.uname = uname;
+	}
+	public int getCost() {
+		return cost;
+	}
+	public void setCost(int cost) {
+		this.cost = cost;
+	}
+	public Item(String uname, int cost) {
+		super();
+		this.uname = uname;
+		this.cost = cost;
+	}
+	
+
+}
