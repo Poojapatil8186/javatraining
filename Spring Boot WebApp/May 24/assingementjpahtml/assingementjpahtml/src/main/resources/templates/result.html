@@ -1,0 +1,19 @@
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+  
+    <title>Signup result</title>
+</head>
+<body>
+<h1>Signup result</h1>
+<table border="1">
+<tr th:each="Student:${stud}">
+<td th:text="${Student.id}"></td>
+<td th:text="${Student.firstname}"></td>
+<td th:text="${Student.lastname}"></td>
+<td th:text="${Student.email}"></td>
+<td th:text="${Student.gender}"></td>
+</tr>
+</table>
+
+</body>
+</html>
