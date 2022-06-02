@@ -1,8 +1,0 @@
-<html>
-<body>
-
-<form method="post" action="/createstudent">
-
-<input  type="text" placeholder="firstname"  name="firstname">
-</body>
-</html>
